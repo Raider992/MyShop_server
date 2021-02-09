@@ -41,14 +41,15 @@ INSTALLED_APPS = [
 
     'corsheaders',
     'social_django',
+    'debug_toolbar',
+    'template_profiler_panel',
+    'django_extensions',
 
     'adminapp',
     'mainapp',
     'authapp',
     'cartapp',
-    'ordersapp',
-    'debug_toolbar',
-    'template_profiler_panel'
+    'ordersapp'
 ]
 
 MIDDLEWARE = [
