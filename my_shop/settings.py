@@ -161,7 +161,7 @@ LOGIN_REDIRECT_URL = 'main'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-DOMAIN = 'http://localhost:8000'
+DOMAIN = 'http://194.67.86.188/'
 
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = 25
@@ -201,3 +201,4 @@ SOCIAL_AUTH_PIPELINE = (
     'social_core.pipeline.social_auth.load_extra_data',
     'social_core.pipeline.user.user_details'
 )
+
